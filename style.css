@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.one{
+    background-color: rgb(0, 81, 128);
+    height: 50px;
+    top: 0;
+    width: 100%;
+}
+
+.one .container-fluid{
+    height: 50px;
+     z-index: 1000;
+    position: fixed;
+    background-color: rgb(0, 81, 128);
+}
+
+.second{
+    background-color: white;
+    height: 50px;
+    width: 100%;
+
+}
+
+.second .container-fluid{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100px;
+    top: 50px;
+    padding-left: 180px;
+}
+
+
+
+.container-fluid a{
+    color: white;
+    text-decoration: none;
+    /* margin-left: 100px; */
+    padding: 0;
+}
+
+
+.container-fluid a span {
+    
+   
+    margin-left:150px;
+    /* border:solid 2px blue ; */
+    position: relative;
+    bottom: 3px;
+    left: 1rem;
+}
+
+.container-fluid a .phone-number{
+    margin-left: 0px;
+     font-weight: 700;
+     font-size: 200px;
+     
+    /* margin-left: 150px; */
+    
+}
+
+ul .nav-item .number{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    left: 400px;
+}
+
+.nav-link .mail-icon{
+    width: 20px;
+    height: 20px;
+    right: 15px;
+    position: relative;
+    top: 2px;
+    /* bottom: 1px; */
+}
+
+.navbar-collapse .navbar-nav .mail{
+    position: relative;
+    right: 20px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    right: 20px;
+}
+
+
+
+
+.myLogo{
+    /* border: solid 2px black; */
+    position: relative;
+    right: 0px;
+}
+
+.two .navbar-nav .nav-item .nav-link{
+    color: rgb(0, 81, 128);
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.drop li a{
+    color: rgb(0, 81, 128);
+    font-weight: 500;
+    font-size: 16px;
+    z-index: 1000;
+    text-align: center;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.dop .dropdown-item {
+    color: rgb(0, 81, 128);
+}
+
+.carousel-item .caro1{
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.carousel-item .third-caro{
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+
+
+.carousel-caption {
+    top: 180px;
+    bottom: auto;
+    padding-top: 20px;
+    font-size: 40px;
+    color: silver;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px rgb(0, 81, 128);
+    outline-offset: 2px;
+}
+
+.carousel-caption h5{
+    font-size: 20px;
+    color: white;
+    font-weight: 900;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 300px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+    opacity: 1;
+    /* filter: brightness(1.2); */
+}
+
+.main{
+    height: 28rem;
+    /* border: solid 2px greenyellow; */
+    display: inline-block;
+    /* align-items: center; */
+    /* align-content: center; */
+    text-align: center;
+
+}
+
+.sec-div{
+    /* border: solid 2px red; */
+    width: 100%;
+    height: 22rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(0, 81, 128);
+    /* padding: 10px, 50px 20px 50px; */
+}
+
+.container-fluid > .doc-pat{
+    align-items: center;
+    padding-left: 12rem;
+}
+
+
+.container-fluid > .doc-pat >img{
+    width: 500px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.cont-sec{
+    font-size: 25px;
+
+}
+
+.cont-sec > h1{
+    margin-top: 50px;
+    text-align: center;
+    /* border: solid 2px red; */
+}
+ 
+
+.cont-sec > p{
+    margin-top: 30px;
+    text-align: start;
+    /* border: solid 2px red; */
+    padding: 0px 100px 0px 100px;
+}
+/* .main .main-anchor{
+    border: solid 2px green;
+} */
+
+
+
+.main .btn{
+    color: white;
+    background-color: rgb(0, 81, 128);
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    /* align-items: center; */
+    padding:15px 10px 20px 20px;
+    margin-top: 30px;
+}
+.main .btn:hover{
+    color: rgb(199, 194, 194);
+    background-color: rgb(16, 89, 132);
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+   
+
+}
+
+
+.main-card{
+    background-color: rgb(0, 81, 128);
+    height: 200vh;
+    color: white;
+    text-align: center;
+    /* border: greenyellow solid  3px; */
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    padding-top: 20px;
+    
+}
+
+.main-card h1{
+    font-size: 40px;
+    margin: 40px 0;
+}
+
+.main-card .main-one, .main-two{
+
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 98vw;
+    gap: 100px;
+    padding: 0 80px;
+    /* border: solid 2px yellow; */
+
+}
+
+.main-card .main-two{
+    position: relative;
+    bottom: 100px;
+}
+
+.main-card .main-one{
+    margin-top: 50px;
+}
+
+.main-card .care{
+    /* border: solid 2px red; */
+    border: none;
+    height: 40rem;
+    /* object-fit: cover; */
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(0, 81, 128);
+    padding-top:20px ;
+    color: white;
+}
+
+.main-card .care h5{
+    font-size: 45px;
+    width: 400px;
+    margin-right: 100px;
+    /* border: solid 2px white; */
+}
+
+.main-card .main-one .three .special{
+    width: 410px;
+    padding: 0;
+    position: relative;
+}
+
+
+
+.main-card .card .btn{
+    width: 12rem;
+    height: 40px;
+    font-size: 1.5rem;
+}
+
+.care img{
+    object-fit: cover;
+    align-content: center;
+    /* border: solid 2px white; */
+}
+
+.cont-bac{
+    background-image: url('./img/cellimg2.jpeg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+    color: white;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 700;
+    /* text-shadow: red 2px 2px 4px; */
+    text-align: center;
+    
+}
+
+.cont-bac a{
+    color: rgb(0, 81, 128);
+    text-shadow: white 2px 2px 4px;
+    margin: 0 10px;
+}
+
+.cont-bac .span-one{
+    text-shadow: violet 2px 2px 4px;
+}
+
+.cont-bac .span-two{
+    text-shadow: blue 2px 2px 4px;
+}
+
+/* .pro-building{
+    height: 100vh;
+    text-align: center;
+    background-image: url('./img/NHIAbg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    color: white;
+} */
+
+.pro-building{
+    height: 100vh;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 20, 80, 0.7), rgba(0, 10, 50, 0.8)), url('./img/NHIAbg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    color: white;
+}
+
+
+
+.pro-building h1{
+    font-size: 40px;
+    /* margin: 80px 0; */
+    padding: 70px 0;
+    /* background-color: rgb(0, 81, 128); */
+    color: white;
+    font-weight: 800;
+    z-index: 1000;
+}
+
+.pro-building .logo-images {
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1000;
+
+}
+
+/* .pre-building .logo-images a{
+    width: 600px;
+    background-color: beige;
+    height: 300px;
+} */
+
+.pro-building .logo-images img{
+    width: 300px;
+    height: 200px;
+    /* border: solid 50px rgb(225, 225, 218); */
+    z-index: 1000;
+}
+
+
+.pro-building .logo-images .alpha, .beta{
+    background-color: rgb(209, 201, 208);
+    width: 600px;
+    height: 300px;
+    padding-top: 50px;
+}
+
+.pro-building .providers{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    /* border: springgreen solid 2px; */
+}
+
+.pro-building .providers p{
+    color: white;
+    font-size: 30px;
+}
+
+.pro-building .providers .para1{
+    margin-right: 100px;
+}
+
+.pro-building .providers .para2{
+    margin-left: 150px;
+}
+
+.care{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height:100vh;
+}
+
+.care h1{
+    display: inline-block;
+}
+
